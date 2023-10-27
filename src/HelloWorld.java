@@ -1,5 +1,5 @@
-import
-javax.swing.JFrame;
+import javax.swing.JFrame;
+
 
 public class HelloWorld extends JFrame{ 
         
@@ -10,8 +10,8 @@ public class HelloWorld extends JFrame{
 }
 
 public static void main(String[] args){ 
-    HelloWorld gui = new HelloWorld();
 
+    HelloWorld gui = new HelloWorld();
     gui.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE); 
     gui.setSize(800, 600);
 
