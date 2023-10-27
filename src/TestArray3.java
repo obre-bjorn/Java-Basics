@@ -2,10 +2,10 @@ public class TestArray3 {
     public static void main(String args[]){
 
 
-        // Initialize
+        // Initialize the multidimensional Array
         int arr1 [][] =  new int [3][3] ;
 
-        // Then declare
+        // Then declaration.
 
         arr1[0][0]=1;
 
@@ -25,11 +25,12 @@ public class TestArray3 {
 
         arr1[2][2]=4;
 
-         System.out.println();
+        // Adds space
+        System.out.println();
 
         for(int i=0;i<3;i++){
 
-        for(int j=0;j<3;j++){
+            for(int j=0;j<3;j++){
 
             System.out.print(arr1[i][j]+" ");
 
